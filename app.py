@@ -16,11 +16,6 @@ app.layout = html.Div(style={"fontFamily": "Arial", "padding": "20px"}, children
         style={"textAlign": "center", "color": "#2c3e50"}
     ),
 
-    html.H3(
-        "Filter sales by region",
-        style={"textAlign": "center", "color": "#7f8c8d"}
-    ),
-
     dcc.RadioItems(
         id="region-filter",
         options=[
